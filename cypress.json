@@ -1,0 +1,4 @@
+{
+  "baseUrl": "http://react-redux.realworld.io",
+  "testFiles": "**/*.feature"
+}
