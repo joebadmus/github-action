@@ -1,1 +1,10 @@
 node_modules
+cypress/screenshots/
+cypress/videos/
+debug.log
+mochawesome-report/
+mochawesome.json
+cypress/results/
+allure-report/
+allure-results/
+mochawesome-report/mochawesome.html

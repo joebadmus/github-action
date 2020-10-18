@@ -1,4 +1,42 @@
 {
-  "baseUrl": "http://react-redux.realworld.io",
-  "testFiles": "**/*.feature"
+  "testFiles": "**/*.feature",
+  "video": false,
+  "env":{
+      "Uk": "https://www.next.co.uk/",
+      "Mexico": "https://www.next.mx/en/",
+      "Armenia": "https://www.nextdirect.com/am/en/",
+      "Australia": "https://www.next.com.au/en/",
+      "Austria": "https://www.next.at/de/",
+      "Azerbaijan": "https://www.next.com.az/en/",
+      "Bahrain": "https://www.nextdirect.com/bh/ar/",
+      "Bulgaria": "https://www.nextdirect.com/bg/bg/",
+      "Canada": "https://www.nextdirect.com/ca/en/",
+      "Czech": "https://www.nextdirect.com/cz/cs/",
+      "Croatia": "https://www.nextdirect.com/hr/en/",
+      "Denmark": "https://www.nextdirect.com/dk/en/",
+      "Turkey": "https://www.nextdirect.com/tr/en/",
+      "Thailand": "https://www.nextdirect.com/th/en/",
+      "Taiwan": "https://www.next.tw/zh/",
+      "Ukraine": "https://www.next.ua/ru/",
+      "UAE": "https://www.next.ae/ar/",
+      "USA": "https://www.next.us/en/",
+      "Switzerland": "https://www.nextdirect.com/ch/de/",
+      "Sweden": "https://www.next.se/sv/",
+      "Spain": "https://www.next.es/es/",
+      "South_Korea": "https://www.nextdirect.com/kr/ko/",
+      "South_Africa": "https://www.nextdirect.com/za/en/",
+      "Singapore": "https://www.next.sg/en/",
+      "Serbia": "https://www.nextdirect.com/rs/en/",
+      "Romania": "https://www.next.ro/ro/",
+      "Qatar": "https://www.next.qa/en/",
+      "Careers@next": "https://careers.next.co.uk/",
+      "Media&Press": "https://www.nextplc.co.uk/media/media-contacts",
+      "TheCompany": "https://www.nextplc.co.uk/"
+    },
+      
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  },
+  "projectId": "aubnhd"
 }
