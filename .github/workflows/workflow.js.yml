@@ -32,4 +32,4 @@ jobs:
         run: npm install
         
       - name: Run Test
-        run:  npm rum test:allure
+        run:  npm rum cypress-regression-pack
