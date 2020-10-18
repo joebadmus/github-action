@@ -15,25 +15,4 @@ Feature: Platform Mod International Privacy Policy
             | domain      |   
             | Armenia     |
             | Australia   |
-            | Austria     |
-            | Azerbaijan  |
-            | Bulgaria    |
-            | Bahrain     |
-            | Canada      |
-            | Croatia     |
-            | Denmark     |
-            | Mexico      |
-            | Sweden      |
-            | Switzerland |
-            | Taiwan      |
-            | Thailand    |
-            | Turkey      |
-            # | UAE         |
-            # | Ukraine     |
-            | USA         |
-            | Spain       |
-            | South_Korea |
-            | Serbia      |
-            | Romania     |
-            | Qatar       |
-            | Singapore   |
+            

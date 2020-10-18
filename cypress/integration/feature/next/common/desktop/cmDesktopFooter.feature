@@ -5,60 +5,38 @@ Feature: International Footer Links
     I want to be taken to the correct location from the footer links
 
 
-    # Scenario Outline: Platform Mod enabled footer content are displayed correctly
-    #     Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
-    #     When I am viewing the footer of the page
-    #     Then I should see all footer content are displayed correctly
-    #         | footer_content |
-    #         | Social Media   |
-    #         | MyAccount      |
-    #         | Quickshop      |
-    #         | LinkLists      |
+    Scenario Outline: Platform Mod enabled footer content are displayed correctly
+        Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
+        When I am viewing the footer of the page
+        Then I should see all footer content are displayed correctly
+            | footer_content |
+            | Social Media   |
+            | MyAccount      |
+            | Quickshop      |
+            | LinkLists      |
 
-    #     Examples:
-    #         | domain      |
-    #         | Austria     |
-    #         | Canada      |
-    #         | Czech       |
-    #         | Mexico      |
-    #         | Bulgaria    |
-    #         | Bahrain     |
-    #         | Croatia     |
-    #         | Turkey      |
-    #         | Thailand    |
-    #         | Taiwan      |
-    #         | USA         |
-    #         | Sweden      |
-    #         | Switzerland |
-    #         | South_Korea |
-    #         | Serbia      |
-    #         | Romania     |
-    #         | Qatar       |
-    #         | Singapore   |
+        Examples:
+            | domain      |
+            | Austria     |
+            | Canada      |
+            | Czech       |
+            
 
+    Scenario Outline: PlatMod enabled footer content are displayed correctly for duolingo
+        Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
+        When I am viewing the footer of the page for the second language
+        Then I should see all footer content are displayed correctly
+            | footer_content |
+            | Social Media   |
+            | MyAccount      |
+            | Quickshop      |
+            | LinkLists      |
 
+        Examples:
+            | domain      | 
+            | Canada      | 
+            | Austria     | 
 
-    # Scenario Outline: PlatMod enabled footer content are displayed correctly for duolingo
-    #     Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
-    #     When I am viewing the footer of the page for the second language
-    #     Then I should see all footer content are displayed correctly
-    #         | footer_content |
-    #         | Social Media   |
-    #         | MyAccount      |
-    #         | Quickshop      |
-    #         | LinkLists      |
-
-    #     Examples:
-    #         | domain      | 
-    #         | Canada      | 
-    #         | Austria     | 
-    #         | Bahrain     | 
-    #         | Czech       | 
-    #         | Bulgaria    | 
-    #         | South_Korea | 
-    #         | Spain       | 
-    #         | Romania     | 
-    #         | Qatar       | 
 
 
 
@@ -85,9 +63,6 @@ Feature: International Footer Links
 
         Examples:
             | domain   |
-            # | Canada   |
-            # | Austria  |
-            # | Bahrain  |
+            | Canada   |
             | Bulgaria |
-            # | Czech    |
 
